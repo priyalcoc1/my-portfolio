@@ -1,0 +1,19 @@
+.button-container .button-text {
+    background-color: red;
+    color: white;
+    font-family:Mont-HeavyDEMO;
+    font-weight: bold;
+    border: 1px red solid;
+    border-radius: 6px;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin-top: 10px;
+}
+
+.button-container .button-text:hover {
+    background-color: transparent;
+    border: 1px red solid;
+    color: red;
+}

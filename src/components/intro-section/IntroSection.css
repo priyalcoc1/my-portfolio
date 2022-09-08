@@ -1,0 +1,68 @@
+/* My Small Intro Section */
+.my-intro-with-image {
+    background-color: white;
+}
+
+.my-intro-with-image .max-width {
+    padding: 100px 0;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.my-intro-with-image .heading-text-container {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.my-intro-with-image .about-me-with-image-and-intro-container {
+    display: flex;
+}
+
+.my-intro-with-image .about-me-with-image-and-intro-container .left-side-image-container {
+    padding-left: 20px;
+}
+
+.my-intro-with-image .about-me-with-image-and-intro-container .left-side-image-container img{
+    width: 300px;
+}
+
+.my-intro-with-image .about-me-with-image-and-intro-container .right-side-text-container {
+    margin: auto 0;
+    padding: 0 20px;
+}
+
+.my-intro-with-image .about-me-with-image-and-intro-container .right-side-text-container .heading-container {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.my-intro-with-image .about-me-with-image-and-intro-container .right-side-text-container .intro-container {
+    font-size: 18px;
+    line-height: 25px;
+    font-family: Mont-ExtraLightDEMO;
+    font-weight: bold;
+}
+
+@media (max-width:940px) {
+    .my-intro-with-image .about-me-with-image-and-intro-container {
+        flex-direction: column;
+    }
+
+    .my-intro-with-image .about-me-with-image-and-intro-container .left-side-image-container {
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 0 20px;
+    }
+
+    .my-intro-with-image .about-me-with-image-and-intro-container .right-side-text-container .heading-container {
+        font-size: 25px;
+        text-align: justify;
+    }
+}
+
+@media (max-width:300px) {
+    .my-intro-with-image .about-me-with-image-and-intro-container .left-side-image-container img{
+        width: 200px;
+    }
+}

@@ -1,0 +1,43 @@
+/* Mabook Font Imported */
+@font-face {
+    font-family: Mabook;
+    src: url("fonts/Mabook.otf");
+
+}
+
+@font-face {
+    font-family: Mont-ExtraLightDEMO;
+    src: url("fonts/Mont-ExtraLightDEMO.otf");
+}
+
+@font-face {
+    font-family: Mont-HeavyDEMO;
+    src: url("fonts/Mont-HeavyDEMO.otf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Mabook", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: rgb(248, 248, 248);
+    overflow-x: hidden;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: red;
+    border-radius: 100px;
+}

@@ -1,0 +1,36 @@
+.footer-section {
+    font-family: Mont-HeavyDEMO;
+    background-color: black;
+    color: white;
+    padding: 10px 0 4px;
+}
+
+.footer-section .max-width {
+    display: flex;
+    max-width: 1300px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.footer-section .social-media-icon-container {
+    display: flex;
+}
+
+.footer-section .social-media-icon-container .github-container,
+.footer-section .social-media-icon-container .instagram-container,
+.footer-section .social-media-icon-container .linkedin-container,
+.footer-section .social-media-icon-container .youtube-container {
+    margin-right: 20px;
+}
+
+.footer-section .social-media-icon-container img {
+    width: 20px;
+}
+
+@media (max-width:650px) {
+    .footer-section .max-width {
+        flex-direction: column;
+        line-height: 40px;
+        align-items: center;
+    }
+}
